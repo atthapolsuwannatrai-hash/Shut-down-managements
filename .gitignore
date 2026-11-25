@@ -1,0 +1,24 @@
+# Dependencies & build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Runtime data (not for public repo)
+*.db
+*.db-shm
+*.db-wal
+app/apps/api/data/
+
+# Real plant schedule data (keep local only)
+*.xlsx
+*.xlsm
+*.xls
+
+# Env / local settings
+.env
+.env.*
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
